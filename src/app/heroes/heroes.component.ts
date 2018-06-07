@@ -12,9 +12,9 @@ import { HeroService } from '../hero.service';
 export class HeroesComponent implements OnInit {
   
 
-  selectedHero: Hero;
+  //selectedHero: Hero;
 
-  heroes;
+  //heroes;
   
   
 
@@ -25,9 +25,9 @@ export class HeroesComponent implements OnInit {
      this.getHeroes();
   }
 
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-  }
+  //onSelect(hero: Hero): void {
+  //  this.selectedHero = hero;
+ // }
 
   getHeroes(): void {
     //this.heroes = this.heroService.getHeroes();
